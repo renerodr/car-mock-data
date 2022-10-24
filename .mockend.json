@@ -1,0 +1,54 @@
+{
+  "Car": {
+    "make": {
+      "string": [
+        "Mercedes Benz"
+      ]   
+   },
+    "model": {
+      "string": [
+        "A-Class",
+        "C-Class",
+        "CLA",
+        "CLS",
+        "E-Class",
+        "EQE",
+        "S-Class"
+      ]
+    },
+    "year": {
+      "string": [
+        "1927",
+        "1932",
+        "1955",
+        "1968",
+        "1988",
+        "1992",
+        "1978",
+        "2001",
+        "2011",
+        "1990",
+        "1931",
+        "1960"
+      ]
+    },
+    "color": {
+      "regexp": "#[0-9A-F]{6}"
+    },
+    "milage": {
+      "int": {
+        "min": 10000,
+        "max": 100000
+      }
+    },
+    "price": {
+      "int": {
+        "min": 10000,
+        "max": 1000000
+      }
+    },
+    "isPublic": {
+      "boolean": {}
+    }
+  }
+}
