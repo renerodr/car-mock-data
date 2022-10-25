@@ -32,8 +32,16 @@
         "1960"
       ]
     },
-    "color": {
-      "regexp": "#[0-9A-F]{6}"
+    "model": {
+      "string": [
+        "White",
+        "Black",
+        "Red",
+        "Grey",
+        "Blue",
+        "Silver",
+        "Yellow"
+      ]
     },
     "milage": {
       "int": {
